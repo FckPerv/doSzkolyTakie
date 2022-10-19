@@ -3,21 +3,22 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 #define M_PI 3.14159265358979323846
 
 using namespace std;
 
-int poleProstokatu(int a, int b)
+double poleProstokatu(double a, double b)
 {
     return a * b;
 }
 
-int poleTrojkatu(int a, int h)
+double poleTrojkatu(double a, double h)
 {
     return a * h / 2;
 }
 
-int poleKola(int r)
+double poleKola(double r)
 {   
     return pow(r, 2) * M_PI;
 }
@@ -36,7 +37,7 @@ void zad31()
             case 'p':
             case 'P':
                 cout << "podaj dlugosci bokow prostokątu" << endl;
-                int dluzszy, krotszy;
+                double dluzszy, krotszy;
                 cin >> dluzszy >> krotszy;
                 cout << "pole prostakata to: " << poleProstokatu(krotszy, dluzszy) << endl;
                 break;
@@ -56,10 +57,67 @@ void zad31()
         cout << "czy chcesz kontynuowac: " << endl << "0. Tak" << endl << "1.Nie" << endl;
     }
 }
+
+
+double obliczankoSin(double kat, char rodzaj)
+{
+    double stopnie = 0;
+    double odp = 0;
+    stopnie = kat;
+    switch (rodzaj)
+    {
+        case 's':
+        case 'S':
+            stopnie = kat * M_PI / 180;
+        defaul:
+            odp = sin(stopnie);
+            break;
+    }
+    return odp;
+}
     
+
+void zad32()
+{
+    double x = 0;
+    char y;
+    cout << "podaj wartosc kata" << endl;
+    cin >> x;
+    cout << "podaj sposob podawania kontow" << endl << "s.Stopnie" << endl << "r.radiany" << endl;
+    cin >> y;
+    cout<< "wartosc sinusa wynosi " << obliczankoSin(x, y);
+}
+
+void zad33()
+{
+    double stopnie;
+    cout << setw(5) << "kat" << setw(5) << "|"<< setw(5)  <<"sin" << setw(5) << "|"<< setw(5) <<"cos"  << setw(5) << "|"<< setw(5) << " tg" <<setw(5) << "|" <<setw(5) << "ctg"<< setw(5)<<"|" << endl;
+    for (int i = 0; i <= 90.0; i += 15)
+    {
+        
+        if (i != 90)
+        {
+            stopnie = (i * M_PI) / 180;
+            cout <<setw(5)<< i << setw(5) << "|" << setw(5) << setprecision(3) << sin(stopnie) << setw(5) << "|" << setw(5) << cos(stopnie) << setw(5) << "|"<< setw(5) << tan(stopnie) << setw(5) << "|"<<setw(5) << 1 / tan(stopnie) << setw(5)<<"|" << endl;
+        }
+        else
+        {
+            stopnie = 1/2;
+            cout << setw(5) << i << setw(5) << "|" << setw(5) << setprecision(3) << sin(stopnie) << setw(5) << "|" << setw(5) << cos(stopnie) << setw(5) << "|" << setw(5) << tan(stopnie) << setw(5) << "|" << setw(5) << 1 / tan(stopnie) << setw(5) << "|" << endl;
+        }
+        
+    }
+}
+void zad34()
+{
+
+}
 
 int main()
 {
-    zad31();
+    //zad31();
+
+   // zad32();
+    zad33();
     
 }
