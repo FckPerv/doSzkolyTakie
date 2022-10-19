@@ -131,12 +131,21 @@ void zad34() {
     sprawdz(a,b,c)
 }
 
-int znajdzDzielnik(int liczba)
+int znajdzDzielnik(int liczba, liczba1)
 {
-    int dzielnik=0
-    for (int i = 2; i < liczba; i++)
+    int dzielnik = 0;
+    int mniejsza = 0;
+    if (liczba1 > liczba)
     {
-        if (liczba % i == 0)
+        mniejsza = liczba
+    }
+    else
+    {
+        mniejsza = liczba1
+    }
+    for (int i = 2; i < mniejsza; i++)
+    {
+        if (liczba % i == 0 && liczba1 %i ==0)
         {
             dzielnik = i;
         }
