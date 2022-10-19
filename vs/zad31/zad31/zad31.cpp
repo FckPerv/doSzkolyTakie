@@ -113,9 +113,43 @@ void zad34()
 
 }
 
-void ustawISprawdz(int a, int b, int c)
+int sprawdz(int a, int b, int c)
 {
+    if (a* a + b * b == c * c || a * a + c * c = b * b || c * c + b * b = a * a)
+    {
+        return 1
+    }
+    else {
+    return 0
+    }
+}
 
+void zad34() {
+    int a, b, c;
+    cout << "podaj a, b i c"<<endl;
+    cin >> a > b >> c;
+    sprawdz(a,b,c)
+}
+
+int znajdzDzielnik(int liczba)
+{
+    int dzielnik=0
+    for (int i = 2; i < liczba; i++)
+    {
+        if (liczba % i == 0)
+        {
+            dzielnik = i;
+        }
+    }
+    return dzielnik
+}
+
+void zad35()
+{
+    int a;
+    cout << "Podaj liczbe dla której dzielnika bedziemy szukac: " << endl;
+    cin >> a;
+    znajdzDzielnik(a);
 }
 
 int main()
@@ -123,6 +157,8 @@ int main()
     //zad31();
 
    // zad32();
-    zad33();
+    //zad33();
+    zad34();
+
     
 }
