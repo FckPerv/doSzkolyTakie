@@ -113,6 +113,11 @@ void zad34()
 
 }
 
+void ustawISprawdz(int a, int b, int c)
+{
+
+}
+
 int main()
 {
     //zad31();
