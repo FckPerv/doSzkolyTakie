@@ -1,4 +1,4 @@
 ﻿  247754_zad43.cpp
-C:\Users\maksy\Documents\doSzkolki\vs\247754_zad43\247754_zad43\247754_zad43.cpp(180,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\maksy\Documents\doSzkolki\vs\247754_zad43\247754_zad43\247754_zad43.cpp(181,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
 C:\Users\maksy\Documents\doSzkolki\vs\247754_zad43\247754_zad43\247754_zad43.cpp(65): warning C4715: "sprawdzanko”: niewszystkie ścieżki kodu zwracają wartość
   247754_zad43.vcxproj -> C:\Users\maksy\Documents\doSzkolki\vs\247754_zad43\x64\Debug\247754_zad43.exe

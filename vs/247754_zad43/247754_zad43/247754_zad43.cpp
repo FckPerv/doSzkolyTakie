@@ -8,19 +8,19 @@ void losowanko(int &a, int &b)
 {
     a = rand() % 6 + 1;
     b = rand() % 6 + 1;
-    cout << "wyrzuciles: " << a << " oczek oraz " << b << " oczek ich suma wynosi" << a + b << endl ;
+    cout << "wyrzuciles: " << a << " oczek oraz " << b << " oczek ich suma wynosi " << a + b << endl ;
 }
 
 void wygrana(int &pieniazki)
 {
     pieniazki += 30;
-    cout << "Gratujalcje wygrales! twoj stan konta wynosi: " << pieniazki << "grasz dalej? " << endl << "1. Tak  " << endl << "0. Nie" << endl;
+    cout << "Gratujalcje wygrales! twoj stan konta wynosi: " << pieniazki << " grasz dalej? " << endl << "1. Tak  " << endl << "0. Nie" << endl;
 }
 
 void przegrana(int &pieniazki)
 {
     pieniazki -= 20;
-    cout << "Ojć przegrałes, twoj stan konta wynosi: " << pieniazki << "grasz dalej? " << endl << "1. Tak  " << endl << "0. Nie" << endl;
+    cout << "Ojc przegrales, twoj stan konta wynosi: " << pieniazki << " grasz dalej? " << endl << "1. Tak  " << endl << "0. Nie" << endl;
 }
 
 void kontynuj(int c)
@@ -76,8 +76,8 @@ void zad43gra()
     while (wybor == 1)
     {
         c = 0;
-        cout << "twoj stan konta to: " << pieniazki << "naciśnij: "<< endl;
-        cout << "1. aby kontynuować" << endl << "0. aby wyjsć" << endl;
+        cout << "twoj stan konta to: " << pieniazki << " nacisnij "<< endl;
+        cout << "1. aby kontynuowac" << endl << "0. aby wyjsc" << endl;
         cin >> wybor;
         if (wybor == 0)
         {
@@ -116,7 +116,8 @@ void zad43gra()
         }
 
         cin >> wybor;
-        
+        if (wybor == 0)
+            break;
 
 
         
@@ -140,13 +141,13 @@ void zad43symulator()
         if (suma == 7 || suma == 11)
         {
             pieniadze += 30;
-            cout << suma << " wygrana" << pieniadze << endl;
+            cout << "wyrzuciles "<< kostka1 << " oraz "<< kostka2 << " oczek " << "gratulacje wygrales " << " twoj stan konta to: "<< pieniadze << endl;
             continue;
         }
         else if (suma  == 2 || suma ==3 || suma ==12)
         {
             pieniadze -= 20;
-            cout << suma << " " << pieniadze << "przegrana" << endl;
+            cout << "wyrzuciles " << kostka1 << " oraz " << kostka2 << " oczek " << "ojc przegrales " << " twoj stan konta to: " << pieniadze << endl;
             continue;
         }
         else if (suma > 3)
@@ -158,14 +159,14 @@ void zad43symulator()
                 if (kostka1 + kostka2 == suma)
                 {
                     pieniadze += 30;
-                    cout << suma <<" "<< kostka1 << " "<< kostka2 << " wygrana " << pieniadze << endl;
+                    cout << "wyrzuciles " << kostka1 << " oraz " << kostka2 << " oczek " << " musiales wyrzucic: "<< suma <<" oczek " << "gratulacje wygrales " << " twoj stan konta to: " << pieniadze << endl;
                     waruneczek = 1;
 
                 }
                 if (kostka1 + kostka2 == 7)
                 {
                     pieniadze -= 20;
-                    cout << suma<< " " << pieniadze << "  przegrana " << kostka1<< " " << kostka2 << endl;
+                    cout << "wyrzuciles " << kostka1 << " oraz " << kostka2 << " oczek " << " musiales wyrzucic: "<<suma<< " oczek " << " przegrales " << " twoj stan konta to: " << pieniadze << endl;
                     waruneczek = 1;
                 }
             }
