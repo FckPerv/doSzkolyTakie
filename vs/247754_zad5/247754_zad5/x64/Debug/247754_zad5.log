@@ -1,3 +1,5 @@
 ﻿  247754_zad5.cpp
-C:\Users\maksy\Documents\doSzkolki\vs\247754_zad5\247754_zad5\247754_zad5.cpp(69,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\maksy\Documents\doSzkolki\vs\247754_zad5\247754_zad5\247754_zad5.cpp(107,50): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\maksy\Documents\doSzkolki\vs\247754_zad5\247754_zad5\247754_zad5.cpp(122,9): warning C4101: "rate": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\maksy\Documents\doSzkolki\vs\247754_zad5\247754_zad5\247754_zad5.cpp(140,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
   247754_zad5.vcxproj -> C:\Users\maksy\Documents\doSzkolki\vs\247754_zad5\x64\Debug\247754_zad5.exe
