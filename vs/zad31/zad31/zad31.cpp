@@ -131,7 +131,7 @@ void zad34() {
     sprawdz(a,b,c)
 }
 
-int znajdzDzielnik(int liczba, liczba1)
+int znajdzDzielnik(int liczba,int  liczba1)
 {
     int dzielnik = 0;
     int mniejsza = 0;
