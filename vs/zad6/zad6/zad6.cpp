@@ -68,7 +68,28 @@ void odchSrd(int tab[])
     cout << "srednie odchylenie tej tablicy wynosi: " << odchylenie << endl;
 }
 
+void iloczynSkalarny(int tab[], int tab1[])
+{
+    int iloczyn = 0;
+    for (int i = 0; i < N; i++)
+    {
+        iloczyn += tab[i] * tab1[i];
+    }
+    cout << "iloczyn tych dwoch tablic wynosi: " << iloczyn << endl;
+}
 
+void horner(int wsp[], int x)
+{
+    int wynik = wsp[0];
+
+    for (int i = 1; i < 5; i++)
+    {
+        wynik = wynik * x + wsp[i];
+    }
+        
+
+    cout << "wartosc wielomianu wynosi: "<< wynik;
+}
 
 
 
@@ -87,7 +108,14 @@ int main()
     wypisz(Y);
     sumaKwadratow(X);
     znajdzMax(Y,&ind, war);
-    cout <<"index: " << ind << "wartosc: " << war;
+    cout <<"index: " << ind << "wartosc: " << war<<endl;
+    odchSrd(X);
+    int a[5];
+    odchSrd(X);
+    iloczynSkalarny(X, Y);
+    losowanieTablicy(a,2,8);
+    wypisz(a);
+    horner(a, 3);
 
 
 }
