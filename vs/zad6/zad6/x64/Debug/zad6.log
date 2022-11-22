@@ -1,0 +1,4 @@
+﻿  zad6.cpp
+C:\Users\maksy\Documents\doSzkolki\vs\zad6\zad6\zad6.cpp(57,5): error C2601: "main": definicje funkcji lokalnych są niedozwolone
+C:\Users\maksy\Documents\doSzkolki\vs\zad6\zad6\zad6.cpp(41): message : ten wiersz zawiera znak „{”, który nie został jeszcze dopasowany
+C:\Users\maksy\Documents\doSzkolki\vs\zad6\zad6\zad6.cpp(41): fatal  error C1075: „{”: nie znaleziono zgodnego tokenu
