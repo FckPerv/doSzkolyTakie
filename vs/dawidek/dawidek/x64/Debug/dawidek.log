@@ -1,0 +1,3 @@
+﻿  dawidek.cpp
+C:\Users\maksy\Documents\doSzkolki\vs\dawidek\dawidek\dawidek.cpp(50,9): warning C4101: "tab2": lokalna zmienna, do której nie istnieje odwołanie
+  dawidek.vcxproj -> C:\Users\maksy\Documents\doSzkolki\vs\dawidek\x64\Debug\dawidek.exe

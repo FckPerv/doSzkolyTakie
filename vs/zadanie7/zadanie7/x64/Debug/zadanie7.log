@@ -1,0 +1,4 @@
+﻿  zadanie7.cpp
+C:\Users\maksy\Documents\doSzkolki\vs\zadanie7\zadanie7\zadanie7.cpp(39,9): warning C4101: "index": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\maksy\Documents\doSzkolki\vs\zadanie7\zadanie7\zadanie7.cpp(149,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  zadanie7.vcxproj -> C:\Users\maksy\Documents\doSzkolki\vs\zadanie7\x64\Debug\zadanie7.exe
