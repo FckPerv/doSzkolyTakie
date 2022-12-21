@@ -1,0 +1,10 @@
+tytul: gra w klasy  - rok wydania 1963nazwisko autora: cortazar dara urodzenia autora: 1914
+tytul: zbrodnia i kara - rok wydania 1865nazwisko autora: dostojewski dara urodzenia autora: 1821
+tytul: bracia karamazow - rok wydania 1880nazwisko autora: dostojewski dara urodzenia autora: 1821
+tytul: idiota  - rok wydania 1869nazwisko autora: dostojewski dara urodzenia autora: 1821
+tytul: powrot z gwiazd - rok wydania 1961nazwisko autora: lem dara urodzenia autora: 1921
+tytul: solaris - rok wydania 1961nazwisko autora: lem dara urodzenia autora: 1921
+tytul: kamizelka - rok wydania 1882nazwisko autora: prus dara urodzenia autora: 1847
+tytul: lalka  - rok wydania 1889nazwisko autora: prus dara urodzenia autora: 1847
+tytul: prawiek  - rok wydania 1996nazwisko autora: tokarczuk dara urodzenia autora: 1962
+tytul: prowadz swoj plug  - rok wydania 2009nazwisko autora: tokarczuk dara urodzenia autora: 1962

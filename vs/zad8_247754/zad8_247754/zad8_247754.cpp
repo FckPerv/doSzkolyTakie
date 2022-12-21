@@ -58,6 +58,18 @@ void get1(pies p)
 {
     cout << "imie psa to: " << p.imie << " wiek: " << p.wiek << " masa: " << p.masa << endl;
 }
+
+
+void getPisarz(pisarz p)
+{
+    cout << "imie: " << p.imie << " nazwisko: " << p.nazwisko << " rok urodzenia: " << p.rok_urodzenia << endl;
+}
+
+void getKsiazki(ksiazka k)
+{
+    cout << "nazwa: " << k.tytul << " rok wydania: " << k.rok_wydania << endl;
+    getPisarz(*k.autor);
+}
 int main()
 {
     osoba ewa;
@@ -110,8 +122,8 @@ int main()
     ksiazka ksiazki[4];
     strcpy_s(ksiazki[0].tytul, "tak");
     strcpy_s(ksiazki[1].tytul, "nie");
-    strcpy_s(ksiazki[1].tytul, "moze");
-    strcpy_s(ksiazki[1].tytul, "pewnie");
+    strcpy_s(ksiazki[2].tytul, "moze");
+    strcpy_s(ksiazki[3].tytul, "pewnie");
     ksiazki[0].rok_wydania = 1922;
     ksiazki[1].rok_wydania = 1933;
     ksiazki[2].rok_wydania = 1944;
@@ -120,6 +132,8 @@ int main()
     ksiazki[1].autor = &autorzy[1];
     ksiazki[2].autor = &autorzy[2];
     ksiazki[3].autor = &autorzy[2];
+    getKsiazki(ksiazki[3]);
+
 
 
 
