@@ -1,0 +1,1 @@
+$User = Read-Host -Prompt 'Jakiego wśród usług'
