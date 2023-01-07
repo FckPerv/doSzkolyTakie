@@ -5,7 +5,7 @@ function znajdzUsluge{
     )
     Process{
         $result = Get-Service -Name *"$slowo"*
-        Write-output $result
+        Write-output $result.name
     }
 }
 
@@ -18,7 +18,7 @@ function wymagane{
         $odp =""
         foreach($item in $szukane){
             $odp += write-host $item
-            $foo=Get-Service -RequiredServices $item.name;
+            $foo=Get-Service -RequiredServices $item;
             foreach($itemek in $foo){
                 $odp+=write-host "   " $itemek.name  " : " $itemek.status 
                 }
