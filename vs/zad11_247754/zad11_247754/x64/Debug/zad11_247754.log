@@ -1,7 +1,8 @@
 ﻿  zad11_247754.cpp
-C:\Users\maksy\Documents\doSzkolki\vs\zad11_247754\zad11_247754\zad11_247754.cpp(9,29): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
-C:\Users\maksy\Documents\doSzkolki\vs\zad11_247754\zad11_247754\zad11_247754.cpp(17,31): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
-C:\Users\maksy\Documents\doSzkolki\vs\zad11_247754\zad11_247754\zad11_247754.cpp(25,31): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
-C:\Users\maksy\Documents\doSzkolki\vs\zad11_247754\zad11_247754\zad11_247754.cpp(33,8): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
-C:\Users\maksy\Documents\doSzkolki\vs\zad11_247754\zad11_247754\zad11_247754.cpp(37): warning C4715: "wlaczony_bit”: niewszystkie ścieżki kodu zwracają wartość
-  zad11_247754.vcxproj -> C:\Users\maksy\Documents\doSzkolki\vs\zad11_247754\x64\Debug\zad11_247754.exe
+C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\zad11_247754\zad11_247754.cpp(10,29): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\zad11_247754\zad11_247754.cpp(18,31): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\zad11_247754\zad11_247754.cpp(26,31): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\zad11_247754\zad11_247754.cpp(34,8): warning C4554: „<<”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\zad11_247754\zad11_247754.cpp(38): warning C4715: "wlaczony_bit”: niewszystkie ścieżki kodu zwracają wartość
+  LINK : nie znaleziono elementu C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\x64\Debug\zad11_247754.exe ani nie został on skompilowany podczas ostatniego konsolidowania przyrostowego; zostanie wykonana pełna konsolidacja
+  zad11_247754.vcxproj -> C:\Users\maksy\Documents\doSzkolyTakie\vs\zad11_247754\x64\Debug\zad11_247754.exe

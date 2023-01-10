@@ -1,5 +1,6 @@
 ﻿
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -61,14 +62,55 @@ void rozpakuj(int b ,char a[4])
     
 }
 
+void szyfrowanko(string nazwa, char klucz[5])
+{
+    ifstream pliczek(nazwa, ios::in) ;
+    ofstream odp1("zaszyfrowane.txt", ios::out);
+    char znaczek;
+    int index = 0;
+    if (pliczek.is_open())
+    {
+        while (pliczek.good())
+        {
+            pliczek.get(znaczek);
+            char zaszyfrowane = znaczek ^ klucz[index % 5];
+            odp1 << zaszyfrowane;          
+        }
+    }
+
+}
+
+void odszyfrowywanko(string nazwa, char klucz[5])
+{
+    ifstream pliczek(nazwa, ios::in);
+    ofstream odp1("odszyfrowane.txt", ios::out);
+    char znaczek;
+    int index = 0;
+    if (pliczek.is_open())
+    {
+        while (pliczek.good())
+        {
+            pliczek.get(znaczek);
+            char zaszyfrowane = znaczek ^ klucz[index % 5];
+            odp1 << zaszyfrowane;
+        }
+    }
+
+}
+
 
 int main()
 {
     char a[4] = { 'a','b','c','d' };
     char b[4] = {};
+    char c[5]= {};
    // cout << wlacz_bit(8, 3)<<endl;
     //cout << wlaczony_bit(8, 2)<<endl;
     rozpakuj(zapakuj(a), b);
+    cout << "podaj klucz"<< endl;
+    cin >> c;
+    szyfrowanko("nowy.txt", c);
+    odszyfrowywanko("zaszyfrowane.txt", c);
 
 }
 
